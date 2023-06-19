@@ -12,10 +12,10 @@ const port = process.env.PORT || 3000;
 const mysql = require('mysql2');
 
 const dbConfig = {
-  host: '177.71.192.90',
+  host: '',
   user: 'bill',
   password: 'T@csup00',
-  database: 'lab14BD'
+  database: ''
 };
 
 const connection = mysql.createConnection(dbConfig);
